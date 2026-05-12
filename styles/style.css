@@ -172,3 +172,46 @@
   border-radius: 5px;
   margin-bottom: 150px;
 }
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .header-content {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .header-text {
+    padding: 0 20px;
+  }
+
+  .header-title {
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+  }
+
+  .header-description {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-img {
+    width: 100%;
+    margin-top: 20px;
+    background-image: none;
+    position: relative;
+  }
+
+  .header-main-image {
+    width: 100%;
+  }
+
+  .donate-today {
+    align-items: center
+  }
+}
