@@ -173,10 +173,6 @@
   margin-bottom: 150px;
 }
 
-.hidden {
-  display: none;
-}
-
 @media (min-width: 320px) and (max-width: 425px) {
   .header-content {
     flex-direction: column;
@@ -213,5 +209,26 @@
 
   .donate-today {
     align-items: center
+  }
+
+  .donate-today-section-title {
+    width: 98%;
+    padding: 2px;
+  }
+
+  .donate-today-section-description {
+    width: 98%;
+    padding: 2px;
+  }
+
+  .donate-amounts-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .border {
+    width: 100%;
+    margin: 40px 0;
   }
 }
