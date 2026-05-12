@@ -232,3 +232,47 @@
     margin: 40px 0;
   }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .header-img {
+    width: 100%;
+    background-image: cover;
+  }
+
+  .donate-today-section-description {
+    width: 98%;
+    padding: 2px;
+  }
+
+  .donate-amounts-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .border {
+    width: 100%;
+    margin: 40px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-content {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .header-img {
+    width: 100%;
+    background-image: cover;
+  }
+}
