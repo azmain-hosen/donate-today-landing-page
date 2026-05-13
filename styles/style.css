@@ -393,6 +393,29 @@
   background-color: #E0484D;
 }
 
+.footer-container {
+  width: 100%;
+  height: 300px;
+  background-color: #0B0D17;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FF5959;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.footer-description {
+  color: #707070;
+  text-align: center;
+}
+
 @media (min-width: 320px) and (max-width: 430px) {
   .header-content {
     flex-direction: column;
