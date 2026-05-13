@@ -302,7 +302,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .give-someones-life-image {
@@ -332,6 +331,66 @@
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.newsletter-content {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletter-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.newsletter-description {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #707070;
+}
+
+.newsletter-container {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF9E6;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  width: 275px;
+  padding: 15px 20px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-btn {
+  background-color: #FF5A60;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #E0484D;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -504,6 +563,27 @@
     justify-content: center;
     align-items: center;
   }
+
+  .newsletter-content {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .newsletter-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 60px 20px;
+  }
 }
 
 
@@ -551,6 +631,98 @@
     justify-items: center;
     box-sizing: border-box;
   }
+
+  .give-someones-life-image {
+    width: 180%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+    transform: translateX(-50%);
+    margin-left: 0;
+  }
+
+  .no-more-homeless-content {
+    width: 90%;
+  }
+
+  .no-more-homeless-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .no-more-homeless-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .no-more-homeless-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .no-more-homeless-image {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .give-someones-life-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .give-someones-life-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .give-someones-life-image {
+    width: 180%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+    transform: translateX(-50%);
+    margin-left: 0;
+  }
+
+  .give-someones-life-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -580,5 +752,87 @@
     align-items: center;
     justify-items: center;
     box-sizing: border-box;
+  }
+
+  .no-more-homeless-content {
+    width: 90%;
+  }
+
+  .no-more-homeless-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .no-more-homeless-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .no-more-homeless-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .no-more-homeless-image {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .give-someones-life-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .give-someones-life-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .give-someones-life-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+    transform: translateX(5%);
+    margin-left: 0;
+  }
+
+  .give-someones-life-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
