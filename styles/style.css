@@ -234,6 +234,106 @@
   gap: 20px;
 }
 
+.no-more-homeless-section {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.no-more-homeless-content {
+  width: 50%;
+}
+
+.no-more-homeless-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.no-more-homeless-description {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #707070;
+}
+
+.no-more-homeless-section-btn {
+  background-color: #FF5959;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.no-more-homeless-image {
+  width: 456px;
+  height: 477px;
+  border-radius: 15px;
+}
+
+.give-someones-life-section {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.give-someones-life-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.give-someones-life-image-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.give-someones-life-image {
+  width: 456px;
+  height: 477px;
+  border-radius: 15px;
+  position: relative;
+  left: -35px;
+}
+
+.give-someones-life-content {
+  width: 40%;
+}
+
+.give-someones-life-description {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #707070;
+}
+
+.give-someones-life-section-btn {
+  background-color: #FF5959;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 @media (min-width: 320px) and (max-width: 430px) {
   .header-content {
     flex-direction: column;
@@ -321,7 +421,91 @@
   .plan-card {
     padding: 20px;
   }
+
+  .no-more-homeless-content {
+    width: 90%;
+  }
+
+  .no-more-homeless-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .no-more-homeless-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .no-more-homeless-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .no-more-homeless-image {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .give-someones-life-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-title {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .give-someones-life-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .give-someones-life-description {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .give-someones-life-image {
+    width: 180%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+    transform: translateX(-50%);
+    margin-left: 0;
+
+  }
+
+  .give-someones-life-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 
 @media (min-width: 431px) and (max-width: 768px) {
   .header-content {
